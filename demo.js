@@ -18,3 +18,11 @@ items[2].style.backgroundColor="green";
 for(var i=0;i<items.length;i++){
 items[i].style.fontWeight="bold";
 }
+//getElementByTagName
+var li = document.getElementsByTagName('li');
+li[4].textContent='Gopi';
+//var list=document.getElementsByClassName('list-group-item');
+//for(var i=0;i<list.length;i++){
+    //list[i].classList.add('not-in-list') ;
+//}
+
